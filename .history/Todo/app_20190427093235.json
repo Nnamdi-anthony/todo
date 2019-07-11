@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Todo",
+    "slug": "Todo",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": ["ios", "android"],
+    "expo": {
+      "name": "TODO",
+      "icon": "./logo.jpg",
+      "description": "some description about our project",
+      "sdkVersion": "27.0.0",
+      "android": {
+        "package": "com.johncy.myapp",
+        "versionCode": 1,
+        "icon": "./logo.jpg"
+      }
+    }
+  },
+  "version": "1.0.0",
+  "orientation": "portrait",
+  "icon": "./assets/images/icon.png",
+  "splash": {
+    "image": "./assets/images/splash.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#ffffff"
+  },
+  "updates": {
+    "fallbackToCacheTimeout": 0
+  },
+  "assetBundlePatterns": ["**/*"],
+  "ios": {
+    "supportsTablet": true
+  }
+}
